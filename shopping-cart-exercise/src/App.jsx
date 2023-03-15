@@ -28,7 +28,7 @@ function App() {
   console.log(productComponents);
   return (
     <div className="App">
-      <Header cart={ cart } />
+      <Header cart={ cart } /> { /* Skickar vidare cart till Header */}
       <section className='products'>
         { productComponents }
       </section>
